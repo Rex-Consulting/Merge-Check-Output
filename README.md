@@ -39,4 +39,4 @@ Custom check for Nagios that performs an operation on 2 different check outputs 
 
 ## Also See
 
-[Blog post of instructions with images](http://www.rexconsulting.net/merging-multiple…uts-using-macros.html)
+[Blog Post](http://www.rexconsulting.net/merging-multiple…uts-using-macros.html)
