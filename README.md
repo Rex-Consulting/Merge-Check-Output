@@ -26,7 +26,7 @@ Custom check for Nagios that performs an operation on 2 different check outputs 
 
 4. Set up a command on your XI server that runs the script. Make sure to wrap all your argument macros in double quotes
 
-       /usr/local/nagios/libexec._dirnamehere_/rex_merge_check.py -o1 "$ARG1$" -o2 "$ARG2$" -r1 "$ARG3$" -r2 "$ARG4$" -op "$ARG5$" -mm "$ARG6$"
+       /usr/local/nagios/libexec.(dirnamehere)/rex_merge_check.py -o1 "$ARG1$" -o2 "$ARG2$" -r1 "$ARG3$" -r2 "$ARG4$" -op "$ARG5$" -mm "$ARG6$"
     Save and apply the command
   
 5. Set up the service check, be sure to substitute the macro for $ARG1$ and $ARG2$
@@ -36,3 +36,7 @@ Custom check for Nagios that performs an operation on 2 different check outputs 
 8. $ARG6$ is the output message. The output will replace ‘{0}’
 9. Save and apply
 10. Test your service check
+
+## Also See
+
+[Blog post of instructions with images](http://www.rexconsulting.net/merging-multiple…uts-using-macros.html)
